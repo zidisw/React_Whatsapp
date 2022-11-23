@@ -44,3 +44,44 @@ code {
   outline-width: 0;
 }
 
+.navBar{
+  display: flex; 
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: #eeedef;
+  height: 4.5rem;
+}
+
+.navBar .profilePic{
+  display: flex; 
+  width: 3rem; 
+  height: 3rem;
+}
+
+.navBar .profilePicImage{
+  object-fit: cover; 
+  border-radius: 9999px; 
+}
+
+.navBar .navBarIcons{
+  display: flex; 
+  align-items: center; 
+  gap: 1.5rem; 
+}
+
+.navbar .navBarIcon{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .navBar{
+    border-top-left-radius: 2rem;
+    width: 100%;
+  }
+ }
+
