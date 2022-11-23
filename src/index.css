@@ -15,3 +15,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.searchBar{
+  display: flex; 
+  position: relative; 
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; 
+  padding-top: 0.25rem; 
+  align-items: center; 
+  background: #fafafa;
+}
+
+.searchBar .searchLogo{
+  position: absolute; 
+  left: 1.5rem; 
+  padding-left: 0.25rem; 
+}
+
+.searchBar .searchInput{
+  padding: 0.25rem; 
+  padding-left: 2.25rem; 
+  margin: 0.5rem; 
+  margin-left: 1rem;
+  margin-right: 1rem; 
+  width: 100%; 
+  border-width: 1px; 
+  border-radius: 1rem;
+  outline-width: 0;
+}
+
