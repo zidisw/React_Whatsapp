@@ -5,8 +5,8 @@ import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="h-full bg-[url('../src/assets/wow.jpg')] md:pt-10 md:pb-10 min-h-screen">
-      <div className="flex sm:max-w-[90vw] md:mx-auto   md:my-auto   rounded-[2rem] bg-white  ">
+    <div className="backgroundWeb">
+      <div className="containerWeb">
         <div className="">
           {/* Navbar */}
           <Navbar />
