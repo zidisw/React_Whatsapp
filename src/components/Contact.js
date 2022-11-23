@@ -21,7 +21,7 @@ const Contact = ({ img, name, message }) => {
         </div>
 
         <div className="flex h-full  text-gray-400 ">
-          <p className="">8:51</p>
+          <p className="">09:00</p>
         </div>
       </div>
     </div>

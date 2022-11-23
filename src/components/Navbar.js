@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/jid_profil.jpg";
 import { BiMessage } from "react-icons/bi";
 import { HiOutlineMenu } from "react-icons/hi";
 
