@@ -128,9 +128,132 @@ code {
   border-radius: 2rem;
 }
 
-  
+.chatBody {
+  display: none; 
+  position: relative; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  border-left-width: 1px; 
+  background: #eeedef;
+}
 
+.chatTop {
+  display: flex; 
+  z-index: 20; 
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  border-top-right-radius: 2rem; 
+  height: 4.5rem;
+  background: #eeedef;
+}
 
+.chatProfilePosition {
+  display: flex; 
+  align-items: center; 
+}
+
+.chatProfilePic {
+  display: flex; 
+  border-radius: 9999px; 
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.chatProfileShape {
+  object-fit: cover; 
+  padding: 0.25rem; 
+  border-radius: 9999px; 
+}
+
+.chatProfileAlign {
+  padding-left: 0.5rem; 
+}
+
+.chatName {
+  font-weight: 700;
+}
+
+.chatLastSeen {
+  color: #9CA3AF; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  white-space: nowrap; 
+  color: 14px;
+  width: 15rem;
+}
+
+.chatBackgroundPosition {
+  object-fit: cover; 
+  width: 100%; 
+  height: 100%; 
+  border-radius: 3.1rem; 
+}
+
+.chatMessageBodyAlign {
+  position: absolute; 
+  top: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.chatMessageBodyPosition {
+  display: flex; 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  border-radius: 3rem
+}
+
+.chatMessagePop {
+  display: none; 
+  position: absolute; 
+  width: 100%; 
+  height: 100%;
+  border-radius: 3rem; 
+}
+
+.chatMessagePopAlign {
+  position: relative; 
+  z-index: 20; 
+  margin-top: 0.75rem; 
+  padding-top: 4.5rem;
+}
+
+.chatTyping {
+  display: flex; 
+  position: relative; 
+  bottom: 0; 
+  z-index: 20; 
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; 
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  align-items: center; 
+  width: 100%; 
+  border-bottom-right-radius: 3rem; 
+  background: #eeedef;
+}
+
+.chatTypingIconSize {
+  width: 2rem; 
+  height: 2rem; 
+}
+
+.chatTypingShape {
+  padding: 0.5rem; 
+  padding-left: 1rem; 
+  margin-left: 1rem;
+  margin-right: 1rem; 
+  width: 100%; 
+  border-radius: 9999px; 
+
+}
 
 @media (min-width: 640px){
   .containerWeb{
@@ -152,11 +275,23 @@ code {
     padding-top: 2.5rem; 
     padding-bottom: 2.5rem;
   }
+  .chatBody{
+    display: flex; 
+  }
  }
 
  @media (min-width: 1024px) { 
   .chatText{
     margin-left: 1.5rem;
     margin-right: 1.5rem; 
+  }
+
+  .chatMessageBodyPosition {
+    display: none;
+  }
+
+  .chatMessagePop{
+    display: flex; 
+    
   }
  }
